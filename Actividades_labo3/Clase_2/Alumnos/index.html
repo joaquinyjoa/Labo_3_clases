@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Alumno</title>
+    <script src="./persona.js"></script>
+    <script src="./alumno.js"></script>
+    <script src="./manejador.js"></script>
+</head>
+<body>
+    <h1>Crear Alumno</h1>
+
+    <!-- Formulario para ingresar los datos del alumno -->
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido"><br>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre"><br>
+
+    <label for="legajo">Legajo:</label>
+    <input type="number" id="legajo"><br>
+
+    <button onclick="Manejador.CrearAlumno()">Crear Alumno</button>
+</body>
+</html>
